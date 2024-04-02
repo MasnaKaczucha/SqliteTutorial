@@ -12,7 +12,7 @@
         <Button Click="b1_Click" Content="Ulozit" HorizontalAlignment="Left" Height="18" Margin="100,82,0,0" VerticalAlignment="Top" Width="42"/>
         <Label Content="Name" HorizontalAlignment="Left" Height="18" Margin="44,36,0,0" VerticalAlignment="Top" Width="52" FontSize="7"/>
         <Label Content="Real Name" HorizontalAlignment="Left" Height="18" Margin="44,59,0,0" VerticalAlignment="Top" Width="50" FontSize="7"/>
-        <ListView x:Name="ListView1" Margin="0,124,0,0"></ListView>
+        <ListView x:Name="ListView1" SelectedItem="ListView1_Selected" Margin="0,124,0,0"></ListView>
 
     </Grid>
 </Window>

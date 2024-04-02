@@ -41,5 +41,11 @@ namespace SqliteTutorial
             }
             
         }
+
+        public Task<List<Avenger>> DeleteItemsAsync(Avenger item)
+        {
+            return _connection.QueryAsync<Avenger>("DELETE FROM [Avengers] WHERE[Id] =" + item.Id);
+        }
+
     }
 }

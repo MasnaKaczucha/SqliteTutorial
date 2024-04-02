@@ -56,7 +56,6 @@ namespace SqliteTutorial
             t1.Text = "";
             t2.Text = "";
 
-
         }
     }
 }
